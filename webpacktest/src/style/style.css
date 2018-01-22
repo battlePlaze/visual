@@ -1,0 +1,24 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:red;
+}
+h1{
+    font-weight:500;
+    font-size:20px;
+    color:white;
+}
+div{
+    color:#fff;
+    text-align: center;
+}
+img{
+    width:80%;
+    /*margin:20px auto;*/
+}
+.img-c-n{
+    padding:20px;
+}
+
+
+

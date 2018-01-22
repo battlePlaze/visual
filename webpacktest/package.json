@@ -1,0 +1,30 @@
+{
+  "name": "webpacktest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^7.1.1",
+    "css-loader": "^0.28.4",
+    "file-loader": "^0.11.2",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.3.0"
+  },
+  "dependencies": {
+    "csv-loader": "^2.1.1",
+    "html-webpack-plugin": "^2.29.0",
+    "less-loader": "^4.0.5",
+    "lodash": "^4.17.4",
+    "sass-loader": "^6.0.6",
+    "webpack-dev-server": "^2.6.1",
+    "xml-loader": "^1.2.1"
+  }
+}
